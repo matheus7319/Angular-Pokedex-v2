@@ -1,0 +1,33 @@
+src/
+  components/
+    pokemon-card/
+      inner/
+        header/ [...]
+        body/ [...]
+        footer/ [...]
+    type-icon/
+      -> matIconRegistry
+      -> domSanitizer
+    type-chart/
+      options.ts [import in component.ts]
+    menu/
+  models/
+    GenericRequest/
+    GenericItem/
+    Pokemon/ [id]
+    Type/ [id]
+  guards/
+  interceptors/
+  modules/
+    pokemons/
+      components | forms/
+      containers | templates | grid/
+    types/
+      components | forms/
+      containers | templates | grid/
+  services/
+    core/
+    pokemon/
+    type/
+  app/
+    [import lazy load module]
